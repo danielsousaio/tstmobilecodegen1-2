@@ -10,6 +10,7 @@ export class _Blank extends React.Component {
   };
 
   render(){
+  render() {
     return (
       <View style={this.props.themedStyle.container}></View>
     )
