@@ -9,7 +9,11 @@ export class _Blank extends React.Component {
     title: "Blank".toUpperCase()
   };
 
-  render = () => <View style={this.props.themedStyle.container}></View>;
+  render(){
+    return (
+      <View style={this.props.themedStyle.container}></View>
+    )
+  }
 }
 
 export default Blank = withStyles(_Blank, theme => ({
